@@ -74,77 +74,74 @@
   - Modifier un vol
   - Annuler un vol
   - Ouvrir ou fermer un vol à la réservation
-- **RG36** : Une compagnie ne peut modifier ou annuler un vol.
-- **RG37** : Une compagnie aérienne doit avoir un ou plusieurs avions.
+- **RG36** : Une compagnie aérienne doit avoir un ou plusieurs avions.
+- **RG37** : Une compagnie aérienne doit avoir un nom.
 - **RG38** : Une compagnie aérienne peut proposer des vols.
-- **RG39** : Une compagnie aérienne doit avoir un nom.
-- **RG40** : Une compagnie aérienne doit avoir un ou plusieurs avions.
-- **RG41** : Une compagnie aérienne peut proposer des vols.
 
 ---
 
 ## 6. Aéroports
 
-- **RG42** : Un aéroport doit avoir un nom.
-- **RG43** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse).
-- **RG44** : Un aéroport peut desservir une ou plusieurs villes.
-- **RG45** : Un aéroport peut être défini comme aéroport de départ, d’arrivée ou d’escale.
-- **RG46** : Un aéroport doit avoir un statut (ouvert ou fermé).
-- **RG47** : Un aéroport doit avoir un ou plusieurs ports d'embarquement.
-- **RG48** : Un aéroport doit avoir une ou plusieurs pistes.
-- **RG49** : Un aéroport doit avoir un IATA.
-- **RG50** : Un aéroport doit avoir un OACI.
+- **RG39** : Un aéroport doit avoir un nom.
+- **RG40** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse).
+- **RG41** : Un aéroport peut desservir une ou plusieurs villes.
+- **RG42** : Un aéroport peut être défini comme aéroport de départ, d’arrivée ou d’escale.
+- **RG43** : Un aéroport doit avoir un statut (ouvert ou fermé).
+- **RG44** : Un aéroport doit avoir une ou plusieurs portes d'embarquement.
+- **RG45** : Un aéroport doit avoir une ou plusieurs pistes.
+- **RG46** : Un aéroport doit avoir un code IATA.
+- **RG47** : Un aéroport doit avoir un code OACI.
 
 ---
 
 ## 7. Membre (inscrit)
 
-- **RG51** : Un membre doit avoir un compte.
-- **RG52** : Un membre peut se connecter.
-- **RG53** : Un membre peut se déconnecter.
-- **RG54** : Un membre peut rechercher un vol.
-- **RG55** : Un membre peut filtrer les résultats de la recherche.
-- **RG56** : Un membre peut consulter les détails d’un vol.
-- **RG57** : Un membre peut contacter l'agence.
-- **RG58** : Un membre peut consulter ses réservations (actuelles, passées).
-- **RG59** : Un membre peut modifier ses données personnelles dans son compte.
-- **RG60** : Un membre peut supprimer son compte.
-- **RG61** : Un membre peut être un client.
+- **RG48** : Un membre doit avoir un compte.
+- **RG49** : Un membre peut se connecter.
+- **RG50** : Un membre peut se déconnecter.
+- **RG51** : Un membre peut rechercher un vol.
+- **RG52** : Un membre peut filtrer les résultats de la recherche.
+- **RG53** : Un membre peut consulter les détails d’un vol.
+- **RG54** : Un membre peut contacter l'agence.
+- **RG55** : Un membre peut consulter ses réservations (actuelles, passées).
+- **RG56** : Un membre peut modifier ses données personnelles dans son compte.
+- **RG57** : Un membre peut supprimer son compte.
+- **RG58** : Un membre peut être un client.
 
 ---
 
 ## 8. Client (achat)
 
-- **RG62** : Un client peut ajouter ou retirer un ou plusieurs passagers à une réservation.
-- **RG63** : Un client doit réserver.
-- **RG64** : Un client doit saisir les informations du passager lors d'une réservation.
-- **RG65** : Un client peut annuler une réservation.
-- **RG66** : Un client doit avoir les coordonnées suivantes au moment du paiement :
+- **RG59** : Un client peut ajouter ou retirer un ou plusieurs passagers d'une réservation.
+- **RG60** : Un client doit réserver.
+- **RG61** : Un client doit saisir les informations du passager lors d'une réservation.
+- **RG62** : Un client peut annuler une réservation.
+- **RG63** : Un client doit saisir les coordonnées suivantes au moment du paiement :
   - Date de naissance
   - Adresse de facturation
   - Numéro de téléphone
   - Coordonnées bancaires
-- **RG67** : Un client peut être un passager.
-- **RG68** : Un client doit être un membre.
+- **RG64** : Un client peut être un passager.
+- **RG65** : Un client doit être un membre.
 
 ---
 
 ## 9. Avion
 
-- **RG69** : Un avion doit avoir des sièges avec des numéros uniques.
-- **RG70** : Un avion a une capacité maximale (nombre de sièges).
-- **RG71** : Un avion doit appartenir à une compagnie aérienne.
-- **RG72** : Un avion peut être affecté à un vol.
-- **RG73** : Un avion doit avoir un modèle.
-- **RG74** : Un avion doit avoir un statut (en vol, stationné, hors service).
+- **RG66** : Un avion doit avoir des sièges avec des numéros uniques.
+- **RG67** : Un avion a une capacité maximale (nombre de sièges).
+- **RG68** : Un avion doit appartenir à une compagnie aérienne.
+- **RG69** : Un avion peut être affecté à un vol.
+- **RG70** : Un avion doit avoir un modèle.
+- **RG71** : Un avion doit avoir un statut (en vol, stationné, hors service).
 
 ---
 
 ## 10. Agence
 
-- **RG75** : L'agence doit avoir un nom.
-- **RG76** : L'agence doit avoir une/des adresse(s).
-- **RG77** : L'agence a des horaires d'ouverture et de fermeture.
-- **RG78** : L'agence peut être contactée.
-- **RG79** : L'agence doit avoir une adresse mail et un numéro de téléphone.
-- **RG80** : L'agence peut vendre des réservations de vols.
+- **RG72** : L'agence doit avoir un nom.
+- **RG73** : L'agence doit avoir une/des adresse(s).
+- **RG74** : L'agence a des horaires d'ouverture et de fermeture.
+- **RG75** : L'agence peut être contactée.
+- **RG76** : L'agence doit avoir une adresse mail et un numéro de téléphone.
+- **RG77** : L'agence peut vendre des réservations de vols.
