@@ -4,33 +4,33 @@
 
 ## 1. Visiteur (non inscrit) 👤
 
-- **RG1** : Un visiteur peut rechercher un vol. 🔍
-- **RG2** : Un visiteur peut filtrer les résultats de la recherche. 🧮
-- **RG3** : Un visiteur peut consulter les détails d'un vol. 📄
-- **RG4** : Un visiteur peut créer un compte. ✏️
-- **RG5** : Un visiteur peut contacter l'agence. 📞
-- **RG6** : Un visiteur peut obtenir des informations sur l'agence. ℹ️
-- **RG7** : Un visiteur peut s'inscrire, les informations obligatoires à fournir sont : 📝
-  - Email ✉️
-  - Mot de passe 🔑
-  - Genre ⚧️
-  - Nom 👤
-  - Prénom 👤
+- **RG1** : Un visiteur peut rechercher un vol.
+- **RG2** : Un visiteur peut filtrer les résultats de la recherche.
+- **RG3** : Un visiteur peut consulter les détails d'un vol.
+- **RG4** : Un visiteur peut créer un compte.
+- **RG5** : Un visiteur peut contacter l'agence.
+- **RG6** : Un visiteur peut obtenir des informations sur l'agence.
+- **RG7** : Un visiteur peut s'inscrire, les informations obligatoires à fournir sont :
+  - Email
+  - Mot de passe
+  - Genre
+  - Nom
+  - Prénom
 
 ---
 
 ## 2. Vols ✈️
 
-- **RG8** : Un vol appartient obligatoirement à une compagnie aérienne. 🏢
-- **RG9** : Un vol possède un aéroport de départ et un aéroport d'arrivée. 🛫 🛬
-- **RG10** : Un vol a une date et une heure de départ, ainsi qu'une date et une heure d'arrivée. 🗓️ ⏰
-- **RG11** : Un vol peut être lié à plusieurs réservations. 🎫
-- **RG12** : Un vol peut être modifié par sa compagnie. 🔄
-- **RG13** : Un vol peut être annulé par sa compagnie. ❌
-- **RG14** : Un vol doit avoir un statut. 📊
-- **RG15** : Un vol doit avoir une durée de vol. ⏱️
-- **RG16** : Un vol doit avoir un numéro de vol. 🔢
-- **RG17** : Un vol doit être lié à un avion. 🛩️
+- **RG8** : Un vol appartient obligatoirement à une compagnie aérienne.
+- **RG9** : Un vol possède un aéroport de départ et un aéroport d'arrivée.
+- **RG10** : Un vol a une date et une heure de départ, ainsi qu'une date et une heure d'arrivée.
+- **RG11** : Un vol peut être lié à plusieurs réservations.
+- **RG12** : Un vol peut être modifié par sa compagnie.
+- **RG13** : Un vol peut être annulé par sa compagnie.
+- **RG14** : Un vol doit avoir un statut.
+- **RG15** : Un vol doit avoir une durée de vol.
+- **RG16** : Un vol doit avoir un numéro de vol.
+- **RG17** : Un vol doit être lié à un avion.
 
 ---
 
