@@ -128,20 +128,20 @@
 
 ## 9. Avion 🛩️
 
-- **RG66** : Un avion doit avoir des sièges avec des numéros uniques. 💺
-- **RG67** : Un avion a une capacité maximale (nombre de sièges). 🪑
-- **RG68** : Un avion doit appartenir à une compagnie aérienne. 🏢
-- **RG69** : Un avion peut être affecté à un vol. ✈️
-- **RG70** : Un avion doit avoir un modèle. 🔧
-- **RG71** : Un avion doit avoir un statut (en vol, stationné, hors service). 🛫 🅿️ 🔧
+- **RG66** : Un avion doit avoir des sièges avec des numéros uniques.
+- **RG67** : Un avion a une capacité maximale (nombre de sièges).
+- **RG68** : Un avion doit appartenir à une compagnie aérienne.
+- **RG69** : Un avion peut être affecté à un vol.
+- **RG70** : Un avion doit avoir un modèle.
+- **RG71** : Un avion doit avoir un statut (en vol, stationné, hors service).
 
 ---
 
 ## 10. Agence 🏬
 
-- **RG72** : L'agence doit avoir un nom. 📝
-- **RG73** : L'agence doit avoir une/des adresse(s). 📍
-- **RG74** : L'agence a des horaires d'ouverture et de fermeture. 🕒
-- **RG75** : L'agence peut être contactée. 📞
-- **RG76** : L'agence doit avoir une adresse mail et un numéro de téléphone. ✉️ 📱
-- **RG77** : L'agence peut vendre des réservations de vols. 💸
+- **RG72** : L'agence doit avoir un nom.
+- **RG73** : L'agence doit avoir une/des adresse(s).
+- **RG74** : L'agence a des horaires d'ouverture et de fermeture.
+- **RG75** : L'agence peut être contactée.
+- **RG76** : L'agence doit avoir une adresse mail et un numéro de téléphone.
+- **RG77** : L'agence peut vendre des réservations de vols.
