@@ -61,3 +61,16 @@ CREATE TABLE Booking(
    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
 );
 ```
+
+## Table Avion
+
+```SQL
+CREATE TABLE Plane(
+   plane_id UUID PRIMARY KEY,
+   plane_capacity INT NOT NULL,
+   plane_model VARCHAR(50) NOT NULL,
+   airline_id UUID NOT NULL,
+   FOREIGN KEY (airline_id) REFERENCES Airline(airline_id)
+
+);
+```
