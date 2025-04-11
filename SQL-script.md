@@ -74,3 +74,15 @@ CREATE TABLE Plane(
 
 );
 ```
+
+## Table Ville
+
+```SQL
+CREATE TABLE City(
+   city_id UUID PRIMARY KEY,
+   city_name VARCHAR(50) NOT NULL,
+   city_zipcode VARCHAR(10) NOT NULL UNIQUE,
+   country_id UUID NOT NULL,
+   FOREIGN KEY (country_id) REFERENCES Country(country_id)
+);
+```
