@@ -100,3 +100,18 @@ CREATE TABLE Airport(
    FOREIGN KEY (city_id) REFERENCES City(city_id)
 );
 ```
+
+## Table Vol
+
+```SQL
+CREATE TABLE Flight(
+   flight_id UUID PRIMARY KEY,
+   flight_departuretime TIMESTAMPTZ NOT NULL,
+   flight_arrivaltime TIMESTAMPTZ NOT NULL,
+   arrival_airport_id UUID NOT NULL,
+   plane_id UUID NOT NULL,
+   FOREIGN KEY (departure_airport_id) REFERENCES Airport(airport_id),
+   FOREIGN KEY (arrival_airport_id) REFERENCES Airport(airport_id),
+   FOREIGN KEY (plane_id) REFERENCES Plane(plane_id)
+);
+```
