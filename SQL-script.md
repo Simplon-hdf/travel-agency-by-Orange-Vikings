@@ -37,3 +37,12 @@ CREATE TABLE Airline(
    airline_name VARCHAR(50) NOT NULL UNIQUE
 );
 ```
+
+## Table pays
+
+```SQL
+CREATE TABLE Country(
+   country_id UUID PRIMARY KEY,
+   country_name VARCHAR(50) NOT NULL UNIQUE
+);
+```
