@@ -1,12 +1,12 @@
-# Règles de Gestion (Règles Métier)
+# Règles de Gestion (Règles Métier) 📋✨
 
 ---
 
-## 1. Visiteur (non inscrit)
+## 1. Visiteur (non inscrit) 👤
 
 - **RG1** : Un visiteur peut rechercher un vol.
 - **RG2** : Un visiteur peut filtrer les résultats de la recherche.
-- **RG3** : Un visiteur peut consulter les détails d’un vol.
+- **RG3** : Un visiteur peut consulter les détails d'un vol.
 - **RG4** : Un visiteur peut créer un compte.
 - **RG5** : Un visiteur peut contacter l'agence.
 - **RG6** : Un visiteur peut obtenir des informations sur l'agence.
@@ -19,11 +19,11 @@
 
 ---
 
-## 2. Vols
+## 2. Vols ✈️
 
 - **RG8** : Un vol appartient obligatoirement à une compagnie aérienne.
-- **RG9** : Un vol possède un aéroport de départ et un aéroport d’arrivée.
-- **RG10** : Un vol a une date et une heure de départ, ainsi qu’une date et une heure d’arrivée.
+- **RG9** : Un vol possède un aéroport de départ et un aéroport d'arrivée.
+- **RG10** : Un vol a une date et une heure de départ, ainsi qu'une date et une heure d'arrivée.
 - **RG11** : Un vol peut être lié à plusieurs réservations.
 - **RG12** : Un vol peut être modifié par sa compagnie.
 - **RG13** : Un vol peut être annulé par sa compagnie.
@@ -34,14 +34,14 @@
 
 ---
 
-## 3. Réservations
+## 3. Réservations 🎫
 
 - **RG18** : Une réservation doit être effectuée par un client.
 - **RG19** : Une réservation doit concerner un ou plusieurs vols.
 - **RG20** : Une réservation est liée à un seul client.
 - **RG21** : Une réservation possède un numéro de réservation.
 - **RG22** : Une réservation peut être modifiée, confirmée ou annulée.
-- **RG23** : Une réservation n’est confirmée qu’après validation du paiement.
+- **RG23** : Une réservation n'est confirmée qu'après validation du paiement.
 - **RG24** : Une réservation contient un ou plusieurs passagers, chacun avec un numéro de siège attribué.
 - **RG25** : Une réservation ne peut être créée que si le vol est encore ouvert à la réservation.
 - **RG26** : Une réservation peut comporter une ou plusieurs escales.
@@ -53,7 +53,7 @@
 
 ---
 
-## 4. Passagers
+## 4. Passagers 👨‍👩‍👧‍👦
 
 - **RG32** : Un passager doit avoir les informations suivantes :
   - Nom
@@ -67,7 +67,7 @@
 
 ---
 
-## 5. Compagnies Aériennes
+## 5. Compagnies Aériennes 🏢
 
 - **RG35** : Une compagnie aérienne peut :
   - Ajouter un vol
@@ -80,12 +80,12 @@
 
 ---
 
-## 6. Aéroports
+## 6. Aéroports ✈️
 
 - **RG39** : Un aéroport doit avoir un nom.
 - **RG40** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse).
 - **RG41** : Un aéroport peut desservir une ou plusieurs villes.
-- **RG42** : Un aéroport peut être défini comme aéroport de départ, d’arrivée ou d’escale.
+- **RG42** : Un aéroport peut être défini comme aéroport de départ, d'arrivée ou d'escale.
 - **RG43** : Un aéroport doit avoir un statut (ouvert ou fermé).
 - **RG44** : Un aéroport doit avoir une ou plusieurs portes d'embarquement.
 - **RG45** : Un aéroport doit avoir une ou plusieurs pistes.
@@ -94,14 +94,14 @@
 
 ---
 
-## 7. Membre (inscrit)
+## 7. Membre (inscrit) 🧑‍💼
 
 - **RG48** : Un membre doit avoir un compte.
 - **RG49** : Un membre peut se connecter.
 - **RG50** : Un membre peut se déconnecter.
 - **RG51** : Un membre peut rechercher un vol.
 - **RG52** : Un membre peut filtrer les résultats de la recherche.
-- **RG53** : Un membre peut consulter les détails d’un vol.
+- **RG53** : Un membre peut consulter les détails d'un vol.
 - **RG54** : Un membre peut contacter l'agence.
 - **RG55** : Un membre peut consulter ses réservations (actuelles, passées).
 - **RG56** : Un membre peut modifier ses données personnelles dans son compte.
@@ -110,7 +110,7 @@
 
 ---
 
-## 8. Client (achat)
+## 8. Client (achat) 💰
 
 - **RG59** : Un client peut ajouter ou retirer un ou plusieurs passagers d'une réservation.
 - **RG60** : Un client doit réserver.
@@ -126,7 +126,7 @@
 
 ---
 
-## 9. Avion
+## 9. Avion 🛩️
 
 - **RG66** : Un avion doit avoir des sièges avec des numéros uniques.
 - **RG67** : Un avion a une capacité maximale (nombre de sièges).
@@ -137,7 +137,7 @@
 
 ---
 
-## 10. Agence
+## 10. Agence 🏬
 
 - **RG72** : L'agence doit avoir un nom.
 - **RG73** : L'agence doit avoir une/des adresse(s).
