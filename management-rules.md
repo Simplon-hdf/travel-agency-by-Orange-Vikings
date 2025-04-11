@@ -36,61 +36,61 @@
 
 ## 3. Réservations 🎫
 
-- **RG18** : Une réservation doit être effectuée par un client. 👥
-- **RG19** : Une réservation doit concerner un ou plusieurs vols. ✈️
-- **RG20** : Une réservation est liée à un seul client. 👤
-- **RG21** : Une réservation possède un numéro de réservation. 🔢
-- **RG22** : Une réservation peut être modifiée, confirmée ou annulée. 🔄 ✅ ❌
-- **RG23** : Une réservation n'est confirmée qu'après validation du paiement. 💳 ✅
-- **RG24** : Une réservation contient un ou plusieurs passagers, chacun avec un numéro de siège attribué. 💺
-- **RG25** : Une réservation ne peut être créée que si le vol est encore ouvert à la réservation. 🔓
-- **RG26** : Une réservation peut comporter une ou plusieurs escales. 🛑
-- **RG27** : Une réservation doit avoir les informations du/des passager(s). 📋
-- **RG28** : Une réservation peut contenir plusieurs options de classes. 🥇 🥈 🥉
-- **RG29** : Une réservation doit avoir un prix. 💰
-- **RG30** : Une réservation doit envoyer une notification de confirmation. 📩
-- **RG31** : Une réservation doit contenir un ou plusieurs billets de vol. 🎟️
+- **RG18** : Une réservation doit être effectuée par un client.
+- **RG19** : Une réservation doit concerner un ou plusieurs vols.
+- **RG20** : Une réservation est liée à un seul client.
+- **RG21** : Une réservation possède un numéro de réservation.
+- **RG22** : Une réservation peut être modifiée, confirmée ou annulée.
+- **RG23** : Une réservation n'est confirmée qu'après validation du paiement.
+- **RG24** : Une réservation contient un ou plusieurs passagers, chacun avec un numéro de siège attribué.
+- **RG25** : Une réservation ne peut être créée que si le vol est encore ouvert à la réservation.
+- **RG26** : Une réservation peut comporter une ou plusieurs escales.
+- **RG27** : Une réservation doit avoir les informations du/des passager(s).
+- **RG28** : Une réservation peut contenir plusieurs options de classes.
+- **RG29** : Une réservation doit avoir un prix.
+- **RG30** : Une réservation doit envoyer une notification de confirmation.
+- **RG31** : Une réservation doit contenir un ou plusieurs billets de vol.
 
 ---
 
 ## 4. Passagers 👨‍👩‍👧‍👦
 
-- **RG32** : Un passager doit avoir les informations suivantes : 📝
-  - Nom 👤
-  - Prénom 👤
-  - Date de naissance 🎂
-  - Passeport (Optionnel) 🛂
-  - Genre (Optionnel) ⚧️
-  - Numéro de téléphone (Optionnel) 📱
-- **RG33** : Un passager est lié à un vol et à un numéro de siège. ✈️ 💺
-- **RG34** : Un passager est lié à une réservation et un billet. 🎫 🎟️
+- **RG32** : Un passager doit avoir les informations suivantes :
+  - Nom
+  - Prénom
+  - Date de naissance
+  - Passeport (Optionnel)
+  - Genre (Optionnel)
+  - Numéro de téléphone (Optionnel)
+- **RG33** : Un passager est lié à un vol et à un numéro de siège.
+- **RG34** : Un passager est lié à une réservation et un billet.
 
 ---
 
 ## 5. Compagnies Aériennes 🏢
 
-- **RG35** : Une compagnie aérienne peut : 🛠️
-  - Ajouter un vol ➕
-  - Modifier un vol 🔄
-  - Annuler un vol ❌
-  - Ouvrir ou fermer un vol à la réservation 🔓 🔒
-- **RG36** : Une compagnie aérienne doit avoir un ou plusieurs avions. 🛩️
-- **RG37** : Une compagnie aérienne doit avoir un nom. 📝
-- **RG38** : Une compagnie aérienne peut proposer des vols. ✈️
+- **RG35** : Une compagnie aérienne peut :
+  - Ajouter un vol
+  - Modifier un vol
+  - Annuler un vol
+  - Ouvrir ou fermer un vol à la réservation
+- **RG36** : Une compagnie aérienne doit avoir un ou plusieurs avions.
+- **RG37** : Une compagnie aérienne doit avoir un nom.
+- **RG38** : Une compagnie aérienne peut proposer des vols.
 
 ---
 
-## 6. Aéroports 🏛️
+## 6. Aéroports
 
-- **RG39** : Un aéroport doit avoir un nom. 📝
-- **RG40** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse). 📍
-- **RG41** : Un aéroport peut desservir une ou plusieurs villes. 🏙️
-- **RG42** : Un aéroport peut être défini comme aéroport de départ, d'arrivée ou d'escale. 🛫 🛬 🛑
-- **RG43** : Un aéroport doit avoir un statut (ouvert ou fermé). 🟢 🔴
-- **RG44** : Un aéroport doit avoir une ou plusieurs portes d'embarquement. 🚪
-- **RG45** : Un aéroport doit avoir une ou plusieurs pistes. 🛣️
-- **RG46** : Un aéroport doit avoir un code IATA. 🏷️
-- **RG47** : Un aéroport doit avoir un code OACI. 🏷️
+- **RG39** : Un aéroport doit avoir un nom.
+- **RG40** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse).
+- **RG41** : Un aéroport peut desservir une ou plusieurs villes.
+- **RG42** : Un aéroport peut être défini comme aéroport de départ, d'arrivée ou d'escale.
+- **RG43** : Un aéroport doit avoir un statut (ouvert ou fermé).
+- **RG44** : Un aéroport doit avoir une ou plusieurs portes d'embarquement.
+- **RG45** : Un aéroport doit avoir une ou plusieurs pistes.
+- **RG46** : Un aéroport doit avoir un code IATA.
+- **RG47** : Un aéroport doit avoir un code OACI.
 
 ---
 
