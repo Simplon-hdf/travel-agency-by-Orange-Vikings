@@ -28,3 +28,12 @@ CREATE TABLE Passenger(
    passenger_type CHECK(passenger_type IN ('Adult', 'Kid', 'Baby')) NOT NULL
 );
 ```
+
+## Table Compagnie
+
+```SQL
+CREATE TABLE Airline(
+   airline_id UUID PRIMARY KEY,
+   airline_name VARCHAR(50) NOT NULL UNIQUE
+);
+```
