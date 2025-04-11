@@ -46,3 +46,18 @@ CREATE TABLE Country(
    country_name VARCHAR(50) NOT NULL UNIQUE
 );
 ```
+
+## Table Réservation
+
+```SQL
+CREATE TABLE Booking(
+   booking_id UUID PRIMARY KEY,
+   booking_class VARCHAR(10) CHECK(booking_class IN ('Economy','Business', 'First')) NOT NULL,
+   booking_date TIMESTAMP NOT NULL,
+   booking_seatnumber VARCHAR(4) NOT NULL UNIQUE,
+   passenger_id UUID NOT NULL UNIQUE,
+   customer_id UUID NOT NULL UNIQUE,
+   FOREIGN KEY (passenger_id) REFERENCES Passenger(passenger_id),
+   FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+```
