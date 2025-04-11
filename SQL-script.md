@@ -86,3 +86,17 @@ CREATE TABLE City(
    FOREIGN KEY (country_id) REFERENCES Country(country_id)
 );
 ```
+
+## Table Aéroport
+
+```SQL
+CREATE TABLE Airport(
+   airport_id UUID PRIMARY KEY,
+   airport_name VARCHAR(80) NOT NULL,
+   airport_address VARCHAR(250) NOT NULL UNIQUE,
+   airport_gate VARCHAR(5) NOT NULL,
+   airport_terminal VARCHAR(5) NOT NULL,
+   city_id UUID NOT NULL,
+   FOREIGN KEY (city_id) REFERENCES City(city_id)
+);
+```
