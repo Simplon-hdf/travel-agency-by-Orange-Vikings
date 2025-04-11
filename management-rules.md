@@ -80,7 +80,7 @@
 
 ---
 
-## 6. Aéroports
+## 6. Aéroports ✈️
 
 - **RG39** : Un aéroport doit avoir un nom.
 - **RG40** : Un aéroport doit avoir une localisation (Pays, Ville, Adresse).
@@ -96,33 +96,33 @@
 
 ## 7. Membre (inscrit) 🧑‍💼
 
-- **RG48** : Un membre doit avoir un compte. 👤
-- **RG49** : Un membre peut se connecter. 🔓
-- **RG50** : Un membre peut se déconnecter. 🔒
-- **RG51** : Un membre peut rechercher un vol. 🔍
-- **RG52** : Un membre peut filtrer les résultats de la recherche. 🧮
-- **RG53** : Un membre peut consulter les détails d'un vol. 📄
-- **RG54** : Un membre peut contacter l'agence. 📞
-- **RG55** : Un membre peut consulter ses réservations (actuelles, passées). 📊
-- **RG56** : Un membre peut modifier ses données personnelles dans son compte. ✏️
-- **RG57** : Un membre peut supprimer son compte. 🗑️
-- **RG58** : Un membre peut être un client. 💼
+- **RG48** : Un membre doit avoir un compte.
+- **RG49** : Un membre peut se connecter.
+- **RG50** : Un membre peut se déconnecter.
+- **RG51** : Un membre peut rechercher un vol.
+- **RG52** : Un membre peut filtrer les résultats de la recherche.
+- **RG53** : Un membre peut consulter les détails d'un vol.
+- **RG54** : Un membre peut contacter l'agence.
+- **RG55** : Un membre peut consulter ses réservations (actuelles, passées).
+- **RG56** : Un membre peut modifier ses données personnelles dans son compte.
+- **RG57** : Un membre peut supprimer son compte.
+- **RG58** : Un membre peut être un client.
 
 ---
 
 ## 8. Client (achat) 💰
 
-- **RG59** : Un client peut ajouter ou retirer un ou plusieurs passagers d'une réservation. ➕ ➖
-- **RG60** : Un client doit réserver. 📝
-- **RG61** : Un client doit saisir les informations du passager lors d'une réservation. 📋
-- **RG62** : Un client peut annuler une réservation. ❌
-- **RG63** : Un client doit saisir les coordonnées suivantes au moment du paiement : 💳
-  - Date de naissance 🎂
-  - Adresse de facturation 🏠
-  - Numéro de téléphone 📱
-  - Coordonnées bancaires 💰
-- **RG64** : Un client peut être un passager. 👨‍👩‍👧‍👦
-- **RG65** : Un client doit être un membre. 🧑‍💼
+- **RG59** : Un client peut ajouter ou retirer un ou plusieurs passagers d'une réservation.
+- **RG60** : Un client doit réserver.
+- **RG61** : Un client doit saisir les informations du passager lors d'une réservation.
+- **RG62** : Un client peut annuler une réservation.
+- **RG63** : Un client doit saisir les coordonnées suivantes au moment du paiement :
+  - Date de naissance
+  - Adresse de facturation
+  - Numéro de téléphone
+  - Coordonnées bancaires
+- **RG64** : Un client peut être un passager.
+- **RG65** : Un client doit être un membre.
 
 ---
 
