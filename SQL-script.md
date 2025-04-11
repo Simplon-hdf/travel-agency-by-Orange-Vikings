@@ -115,3 +115,15 @@ CREATE TABLE Flight(
    FOREIGN KEY (plane_id) REFERENCES Plane(plane_id)
 );
 ```
+
+## Table historique des réservations et vols
+
+```SQL
+CREATE TABLE Logs(
+   flight_id UUID NOT NULL,
+   booking_id UUID NOT NULL,
+   PRIMARY KEY (flight_id, booking_id),
+   FOREIGN KEY (flight_id) REFERENCES Flight(flight_id),
+   FOREIGN KEY (booking_id) REFERENCES Booking(booking_id)
+);
+```
